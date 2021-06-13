@@ -17,7 +17,7 @@ var btn2;
 var Divya,Nancy
 
 function setup() {
-  createCanvas(600,600);
+  createCanvas(400,400);
   engine = Engine.create();
   world = engine.world;
 
@@ -43,7 +43,7 @@ function setup() {
     restitution: 0.95
   }
 
-  ball = Bodies.circle(200,100,20,ball_options);
+  ball = Bodies.circle(200,20,20,ball_options);
   World.add(world,ball);
   
   rectMode(CENTER);
