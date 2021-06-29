@@ -52,7 +52,7 @@ function setup() {
 
 function draw() 
 {
-  background(51);
+  background("green");
 
   ellipse(ball.position.x,ball.position.y,20);
 
